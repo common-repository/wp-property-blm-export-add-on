@@ -1,0 +1,89 @@
+.wpp_blm_export_settings_tabs {
+	border: none;
+}
+.wpp_blm_export_settings_tabs ul.tabs {
+	border-bottom: 1px solid #CBCBCB;
+	float: left;
+	height: 33px;
+	list-style: none;
+	margin: 0;
+	background: transparent;
+	border: none;
+	padding: 0;
+	width: 100%;
+}
+.wpp_blm_export_settings_tabs ul.tabs li.ui-tabs-selected,
+.wpp_blm_export_settings_tabs ul.tabs li.ui-state-active {
+	height: 26px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+.wpp_blm_export_settings_tabs ul.tabs li {
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	background: none repeat scroll 0 0 #F4F4F4;
+	border-color: #D0D0D0;
+	border-style: solid solid none;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px 1px 0;
+	float: left;
+	height: 25px;
+	line-height: 23px;
+	margin: 0 3px 0 0;
+	overflow: hidden;
+	padding: 3px;
+	position: relative;
+}
+.wpp_blm_export_settings_tabs ul.tabs li a {
+	color: #000000;
+	line-height: 25px;
+	outline: medium none;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.wpp_blm_export_settings_tabs .ui-tabs-panel {
+	-khtml-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-color: #DEDEDE;
+	border-right: 1px solid #DEDEDE;
+	border-style: solid;
+	border-width: 1px;
+	clear: both;
+	float: left;
+	padding: 0 0 20px;
+	width: 100%;
+	margin-top:-1px;
+}
+
+a.tooltips {
+	margin-left:3px;
+	margin-top:-1px;
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:transparent url(../images/help.png) no-repeat;
+	opacity:0.2;
+}
+a.tooltips:hover {
+	opacity:1
+}
+
+.ui-tooltip {
+	padding: 9px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+	background-color:#FFF;
+}
+
+.mandatory { color:#C00; font-weight:bold; }
